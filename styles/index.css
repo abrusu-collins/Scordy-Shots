@@ -21,3 +21,10 @@
 .hero img {
   width: 100%;
 }
+.hero .hero-text {
+  text-align: center;
+}
+.hero .hero-text .hero-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
