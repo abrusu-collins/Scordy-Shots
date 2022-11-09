@@ -1,3 +1,14 @@
-.about{
-    // height: 100vh;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+  margin: 200px auto;
+  & img {
+    width: 30%;
+  }
+  & div {
+    padding: 0 50px;
+  }
 }

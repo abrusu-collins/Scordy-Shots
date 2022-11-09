@@ -172,3 +172,18 @@ nav.scrolled {
   width: 50%;
   margin: 50px;
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+  margin: 200px auto;
+}
+.about img {
+  width: 30%;
+}
+.about div {
+  padding: 0 50px;
+}
