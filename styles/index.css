@@ -204,3 +204,22 @@ nav.scrolled {
   background-color: #9e8562;
   padding: 12px 40px;
 }
+
+.portfolio .portfolio-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 70px 0;
+}
+.portfolio .portfolio-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.portfolio img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
