@@ -5,12 +5,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f1e8d8;
 }
 
-.skitter img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
-  overflow: hidden;
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.hero img {
+  width: 100%;
 }
