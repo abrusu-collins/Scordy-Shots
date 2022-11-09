@@ -1,5 +1,4 @@
-works
-pricing
-types of events
+parallax
 Reviews
 footer
+types of events in about description
