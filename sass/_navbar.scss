@@ -1,11 +1,4 @@
 
-// @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-// * {
-//   margin: 0;
-//   padding: 0;
-  
-//   box-sizing: border-box;
-// }
 .container {
   max-width: 920px;
   margin: 0 auto;
@@ -24,8 +17,8 @@
   display: inline-block;
 }
 .nav-brand, .nav-link {
-  color:#ffffff ;
   text-decoration: none;
+  color: black;
   line-height: 55px;
   padding: 0 1rem;
   opacity: 0.8;
