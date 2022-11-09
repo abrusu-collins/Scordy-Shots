@@ -28,3 +28,12 @@
   font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
+.hero .hero-text .hero-normal-text {
+  margin: 30px 0 40px 0;
+}
+.hero .hero-text a {
+  text-decoration: none;
+  color: #fcfeff;
+  background-color: #9e8562;
+  padding: 12px 40px;
+}

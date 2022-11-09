@@ -1,21 +1,29 @@
-.hero{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 5rem;
-    width: 80%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    & img{
-        width: 100%;
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  width: 80%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  & img {
+    width: 100%;
+  }
+  & .hero-text {
+    text-align: center;
+    & .hero-title {
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
     }
-    & .hero-text{
-        text-align: center;
-        & .hero-title{
-            font-size: 30px;
-            font-family: 'Poppins', sans-serif;
-        }
+    & .hero-normal-text {
+      margin: 30px 0 40px 0;
     }
-
+    & a {
+      text-decoration: none;
+      color: $white;
+      background-color: $button_background;
+      padding: 12px 40px;
+    }
+  }
 }
