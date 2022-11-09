@@ -186,4 +186,11 @@ nav.scrolled {
 }
 .about div {
   padding: 0 50px;
+  text-align: center;
+}
+.about div a {
+  text-decoration: none;
+  color: #fcfeff;
+  background-color: #9e8562;
+  padding: 12px 40px;
 }
