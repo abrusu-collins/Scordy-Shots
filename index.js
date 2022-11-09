@@ -1,0 +1,3 @@
+$(function() {
+    $('.skitter-large').skitter();
+  });
