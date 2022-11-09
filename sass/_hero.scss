@@ -1,3 +1,7 @@
-.skitter{
-    width: 100%;
+.skitter {
+  & img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+  }
 }

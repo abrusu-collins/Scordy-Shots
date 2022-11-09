@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
-.skitter {
-  width: 100%;
+.skitter img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  overflow: hidden;
 }
