@@ -64,7 +64,7 @@
   display: block;
   width: 90%;
   height: 2px;
-  background: #ffffff;
+  background: black;
   position: relative;
   transition: 0.25s ease-in-out;
 }
