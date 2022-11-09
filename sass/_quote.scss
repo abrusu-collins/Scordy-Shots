@@ -2,7 +2,7 @@
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/8.jpg");
     background-position: top;
-    background-clip: fixed;
+    background-attachment:fixed;
     text-align: center;
     display: flex;
     align-items: flex-end;
@@ -12,6 +12,7 @@
         font-size: 20px;
         font-family: "Poppins", sans-serif;
         width: 50%;
+        margin: 50px;
   
     }
 }
