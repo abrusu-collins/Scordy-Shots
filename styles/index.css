@@ -188,6 +188,16 @@ nav.scrolled {
   padding: 0 50px;
   text-align: center;
 }
+.about div .name {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.about div .job {
+  font-size: 30px;
+}
+.about div .brief {
+  margin: 70px 0;
+}
 .about div a {
   text-decoration: none;
   color: #fcfeff;
