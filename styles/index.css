@@ -205,6 +205,9 @@ nav.scrolled {
   padding: 12px 40px;
 }
 
+.portfolio {
+  margin-bottom: 200px;
+}
 .portfolio .portfolio-title {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
