@@ -25,4 +25,14 @@
             width: 90%;
         }
     }
+    .reviews{
+        & .the-reviews{
+            width: 90%;
+        }
+    }
+    .cta{
+        & div{
+            width: 80%;
+        }
+    }
 }
