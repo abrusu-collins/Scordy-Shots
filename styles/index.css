@@ -131,7 +131,7 @@ nav.scrolled {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5rem;
   width: 80%;
-  height: 100vh;
+  padding: 200px 0;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -337,5 +337,11 @@ nav.scrolled {
   }
   .footer img {
     width: 70%;
+  }
+}
+@media screen and (max-width: 801px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
   }
 }
