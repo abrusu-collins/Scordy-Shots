@@ -1,22 +1,23 @@
-.reviews{
-    margin-bottom: 200px;
-    & .reviews-title{
-        font-size: 30px;
-        font-family: "Poppins", sans-serif;
-        text-align: center;
-        margin: 70px 0;
+.reviews {
+  margin-bottom: 200px;
+  & .reviews-title {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 70px 0;
+    line-height: 30px;
+  }
+  & .the-reviews {
+    width: 80%;
+    margin: auto;
+    & div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      align-items: center;
+      & img {
+        width: 100%;
+      }
     }
-    & .the-reviews{
-        width: 80%;
-        margin: auto;
-        & div{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-gap:2rem;
-            align-items: center;
-            & img{
-                width: 100%;
-            }
-        }
-    }
+  }
 }
