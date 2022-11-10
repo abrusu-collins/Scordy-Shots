@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   line-height: 22px;
+  scroll-behavior: smooth;
 }
 
 body {
