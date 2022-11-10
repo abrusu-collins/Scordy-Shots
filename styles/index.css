@@ -367,3 +367,11 @@ nav.scrolled {
     flex-direction: column-reverse;
   }
 }
+@media screen and (max-width: 751px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer img {
+    width: 30%;
+  }
+}

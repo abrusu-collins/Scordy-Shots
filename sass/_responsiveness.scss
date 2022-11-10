@@ -72,3 +72,16 @@
     }
   }
 }
+
+@media screen and (max-width:751px) {
+    .footer{
+        grid-template-columns: 1fr;
+        & img{
+            width: 30%;
+        }
+    }
+    
+}
+@media screen and (max-width:700px) {
+    
+}
