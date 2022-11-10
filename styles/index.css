@@ -347,10 +347,15 @@ nav.scrolled {
     display: flex;
     flex-direction: column;
   }
+  .about {
+    flex-direction: column;
+  }
   .about .scordy2 {
     display: none;
   }
   .about .scordy3 {
     display: block;
+    margin-top: 50px;
+    width: 100%;
   }
 }

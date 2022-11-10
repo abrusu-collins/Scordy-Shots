@@ -49,11 +49,14 @@
     flex-direction: column;
   }
   .about{
+    flex-direction: column;
     & .scordy2{
         display: none;
     }
     & .scordy3{
         display: block;
+        margin-top: 50px;
+        width: 100%;
     }
   }
 }
