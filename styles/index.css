@@ -172,6 +172,7 @@ nav.scrolled {
   font-family: "Poppins", sans-serif;
   width: 50%;
   margin: 50px;
+  line-height: 30px;
 }
 
 .about {
@@ -195,9 +196,11 @@ nav.scrolled {
 }
 .about div .job {
   font-size: 30px;
+  line-height: 30px;
+  margin-top: 15px;
 }
 .about div .brief {
-  margin: 70px 0;
+  margin: 50px 0;
 }
 .about div a {
   text-decoration: none;
