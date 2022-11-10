@@ -1,4 +1,2 @@
-parallax
-Reviews
 footer
 types of events in about description
