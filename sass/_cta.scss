@@ -1,0 +1,26 @@
+.cta{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/scody1.jpg");
+    background-position: top;
+    background-attachment:fixed;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    & div{
+        width: 50%;
+        margin: 50px;
+       & p{
+            color: white;
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            margin: 30px;
+        }
+        & a{
+            text-decoration: none;
+            color: $white;
+            background-color: $button_background;
+            padding: 12px 40px;
+        }
+    }
+}

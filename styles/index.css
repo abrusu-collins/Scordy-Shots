@@ -227,6 +227,9 @@ nav.scrolled {
   margin-bottom: 2rem;
 }
 
+.reviews {
+  margin-bottom: 200px;
+}
 .reviews .reviews-title {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
@@ -245,4 +248,31 @@ nav.scrolled {
 }
 .reviews .the-reviews div img {
   width: 100%;
+}
+
+.cta {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/scody1.jpg");
+  background-position: top;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.cta div {
+  width: 50%;
+  margin: 50px;
+}
+.cta div p {
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+.cta div a {
+  text-decoration: none;
+  color: #fcfeff;
+  background-color: #9e8562;
+  padding: 12px 40px;
 }
