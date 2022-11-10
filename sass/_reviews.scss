@@ -1,4 +1,10 @@
 .reviews{
+    & .reviews-title{
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin: 70px 0;
+    }
     & .the-reviews{
         width: 80%;
         margin: auto;

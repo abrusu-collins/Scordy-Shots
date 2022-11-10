@@ -227,6 +227,12 @@ nav.scrolled {
   margin-bottom: 2rem;
 }
 
+.reviews .reviews-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 70px 0;
+}
 .reviews .the-reviews {
   width: 80%;
   margin: auto;
