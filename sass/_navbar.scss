@@ -12,6 +12,7 @@
   transition: height .5s ease-in-out;
   position: fixed;
   z-index: 1000;
+  background-color: $background;
 }
 .nav-brand, .nav-link, .nav-collapse {
   display: inline-block;
@@ -84,7 +85,6 @@
 
 
  nav.scrolled {
-  background-color: $background;
   box-shadow: 0 1px 5px rgba(104,104,104,0.8);
 }
 
