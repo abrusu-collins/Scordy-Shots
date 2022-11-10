@@ -1,0 +1,14 @@
+.reviews{
+    & .the-reviews{
+        width: 80%;
+        margin: auto;
+        & div{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            & img{
+                width: 100%;
+            }
+        }
+    }
+}

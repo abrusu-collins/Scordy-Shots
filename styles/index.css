@@ -226,3 +226,16 @@ nav.scrolled {
   width: 100%;
   margin-bottom: 2rem;
 }
+
+.reviews .the-reviews {
+  width: 80%;
+  margin: auto;
+}
+.reviews .the-reviews div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.reviews .the-reviews div img {
+  width: 100%;
+}
