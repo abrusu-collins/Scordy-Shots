@@ -375,3 +375,13 @@ nav.scrolled {
     width: 30%;
   }
 }
+@media screen and (max-width: 701px) {
+  .portfolio .portfolio-flex {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 501px) {
+  .footer img {
+    width: 40%;
+  }
+}

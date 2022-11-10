@@ -82,6 +82,19 @@
     }
     
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:701px) {
+    .portfolio {
+        & .portfolio-flex {
+            grid-template-columns: 1fr;
+
+        }
+      }
+}
+@media screen and (max-width:501px) {
+    .footer{
+        & img{
+            width: 40%;
+        }
+    }
     
 }
