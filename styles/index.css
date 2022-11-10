@@ -385,3 +385,8 @@ nav.scrolled {
     width: 40%;
   }
 }
+@media screen and (max-width: 401px) {
+  .about div {
+    padding: 0;
+  }
+}
