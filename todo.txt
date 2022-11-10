@@ -1,2 +1,3 @@
 footer
+AOS nice delay
 types of events in about description
