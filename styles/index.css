@@ -287,3 +287,7 @@ nav.scrolled {
   justify-content: center;
   width: 80%;
 }
+.footer img {
+  width: 50%;
+  margin: auto;
+}
