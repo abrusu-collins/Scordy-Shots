@@ -12,6 +12,10 @@ body {
   background-color: #f1e8d8;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 920px;
   margin: 0 auto;
