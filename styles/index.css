@@ -273,6 +273,7 @@ nav.scrolled {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   margin: 30px;
+  line-height: 30px;
 }
 .cta div a {
   text-decoration: none;
