@@ -389,4 +389,7 @@ nav.scrolled {
   .about div {
     padding: 0;
   }
+  .reviews .the-reviews div img {
+    width: 110%;
+  }
 }
