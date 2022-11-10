@@ -186,6 +186,9 @@ nav.scrolled {
 .about img {
   width: 30%;
 }
+.about .scordy3 {
+  display: none;
+}
 .about div {
   padding: 0 50px;
   text-align: center;
@@ -343,5 +346,11 @@ nav.scrolled {
   .hero {
     display: flex;
     flex-direction: column;
+  }
+  .about .scordy2 {
+    display: none;
+  }
+  .about .scordy3 {
+    display: block;
   }
 }

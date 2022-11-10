@@ -48,4 +48,12 @@
     display: flex;
     flex-direction: column;
   }
+  .about{
+    & .scordy2{
+        display: none;
+    }
+    & .scordy3{
+        display: block;
+    }
+  }
 }
