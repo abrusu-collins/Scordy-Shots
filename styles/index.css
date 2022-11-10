@@ -291,3 +291,11 @@ nav.scrolled {
   width: 50%;
   margin: auto;
 }
+.footer .socials p {
+  margin-bottom: 30px;
+}
+.footer .socials a {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #9e8562;
+}

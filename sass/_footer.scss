@@ -11,4 +11,14 @@
         width: 50%;
         margin: auto;
     }
+    & .socials{
+        & p{
+            margin-bottom: 30px;
+        }
+        & a{
+            font-size: 30px;
+            margin-right: 10px;
+            color: $button_background;
+        }
+    }
 }
