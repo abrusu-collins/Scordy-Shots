@@ -276,3 +276,12 @@ nav.scrolled {
   background-color: #9e8562;
   padding: 12px 40px;
 }
+
+.footer {
+  margin: 150px auto 150px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}

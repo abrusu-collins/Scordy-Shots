@@ -1,0 +1,8 @@
+.footer{
+    margin: 150px auto 150px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
