@@ -110,4 +110,18 @@
       }
     }
   }
+  .quote {
+    & p {
+      width: 100%;
+      margin: 20px;
+    }
+  }
+  .cta {
+    & div {
+      width: 1000%;
+      & p {
+        margin: 30px 10px;
+      }
+    }
+  }
 }
