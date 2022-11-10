@@ -358,4 +358,12 @@ nav.scrolled {
     margin-top: 50px;
     width: 100%;
   }
+  .reviews .the-reviews div {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews .the-reviews .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

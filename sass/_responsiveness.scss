@@ -59,4 +59,16 @@
         width: 100%;
     }
   }
+  .reviews{
+    & .the-reviews{
+        & div{
+            display: flex;
+            flex-direction: column;
+        }
+        & .reverse{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+  }
 }
