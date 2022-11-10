@@ -5,3 +5,24 @@
         }
     }
 }
+@media screen and (max-width:951px) {
+    .hero{
+        width: 90%;
+    }
+    .quote{
+        & p{
+            width: 80%;
+        }
+    }
+    .about{
+        width: 90%;
+        & img{
+            width: 40%;
+        }
+    }
+    .portfolio{
+        &  .portfolio-flex{
+            width: 90%;
+        }
+    }
+}
