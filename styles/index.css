@@ -309,7 +309,7 @@ nav.scrolled {
   color: #9e8562;
 }
 
-@media screen and (max-width: 11520px) {
+@media screen and (max-width: 1120px) {
   .about .scordy1 {
     display: none;
   }
